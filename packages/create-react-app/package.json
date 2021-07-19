@@ -1,0 +1,21 @@
+{
+  "name": "create-react-app",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "fuyi0115 <wanjun3154@163.com>",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "bin": {
+    "cra": "./index.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "commander": "^8.0.0"
+  }
+}

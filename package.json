@@ -1,0 +1,18 @@
+{
+  "name": "cra",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "debug": "node ./packages/create-react-app/index.js"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^10.0.0"
+  }
+}
